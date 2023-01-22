@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const User = require("../models/user");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 router.get("/", (req, res) => {
   console.log("WE SMACKED THE GET ROUTER /Users !!!");

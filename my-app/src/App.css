@@ -22,8 +22,8 @@ main {
 .footer {
   text-align: center;
   color: antiquewhite;
-  background-color: rgba(7, 0, 0, 0.452);
-  border: 5px solid rgb(10, 152, 247);
+  /* background-color: rgba(7, 0, 0, 0.452); */
+  /* border: 5px solid antiquewhite; */
   margin-top: auto;
 }
 
@@ -33,12 +33,13 @@ main {
   font-family: "libre baskerville";
   font-weight: 100;
   color: rgb(0, 0, 0);
+  background-color: #CDE6F5;
 }
 
 /* NAVBAR */
 .main-nav {
-  background-color: rgb(255, 255, 255);
-  border: 5px solid rgb(0, 150, 250);
+  background-color: #CDE6F5;
+  /* border: 5px solid antiquewhite; */
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -69,7 +70,6 @@ main {
   font-size: 23px;
   text-decoration: none;
 }
-
 
 
 .action-container a {
@@ -107,7 +107,7 @@ main {
 }
 
 .Form .btn {
-  background: white;
+  background: #CDE6F5;
   color: black;
   font-size: 20px;
   border: 2px solid black;
@@ -169,6 +169,14 @@ main {
   width: 500px;
 }
 
+.div {
+  background-color: #CDE6F5;
+}
+
+/* .hr {
+  background-color: #ef8354;
+  border: none;
+} */
 /* for mobile devices */
 @media only screen and (max-width: 1000px) {
   .placeimg {
